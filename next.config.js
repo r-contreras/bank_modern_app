@@ -7,7 +7,18 @@ const nextConfig = {
     path: '/'
   },
   basePath: '/bank_modern_app',
-  assetPrefix: '/bank_modern_app'
+  assetPrefix: '/bank_modern_app',
+  webpack: (config, options) => {
+    config.module.rules.push(
+      {
+        test: /\.js$/,
+        include: [
+          /node_modules/
+        ],
+        loader: 'babel-loader'
+      }
+    )
+  }
 }
 
 module.exports = nextConfig
