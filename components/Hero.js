@@ -5,7 +5,7 @@ import GetStarted from '../components/GetStarted'
 function Hero() {
     return (
         <section id='home' className="flex md:flex-row flex-col sm:py-16 py-6">
-            <div className='flex flex-1 justify-center items-start flex-col xl:px-0 sm:px-16 px:6'>
+            <div className='flex flex-1 justify-center items-start flex-col xl:px-0 px-6 sm:px-16'>
                 <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
                     <Image src={discount} alt="discount" width='32' height='32' />
                     <p className='font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]'>
@@ -25,7 +25,7 @@ function Hero() {
                     Payment Method.
                 </h1>
                 <p className='font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] max-w-[470px] mt-5'>
-                    Our experts will help you identify the credit card that fits your needs.
+                    Crypto and Fiat in one virtual card. Spend your crypto anywhere in the world. No conversion fees.
                 </p>
             </div>
 

@@ -23,23 +23,23 @@ export const features = [
     {
         id: "feature-1",
         icon: star,
-        title: "Rewards",
+        title: "Best in the market",
         content:
-            "The best credit cards offer some tantalizing combinations of promotions and prizes",
+            "Up to 8% APY on selected cryptocurrencies. Lowest fees when trading. We convert your crypto to the transaction currency on the fly. No conversion rates at all.",
     },
     {
         id: "feature-2",
         icon: shield,
-        title: "100% Secured",
+        title: "100% Secure",
         content:
-            "We take proactive steps make sure your information and transactions are secure.",
+            "You hold your keys. We make sure your transfers are secure. Never lose your crypto again.",
     },
     {
         id: "feature-3",
         icon: send,
-        title: "Balance Transfer",
+        title: "Instant transfers and payments",
         content:
-            "A balance transfer credit card can save you a lot of money in interest charges.",
+            "Add funds, invest and withdraw whenever you want. Send and receive instantly from anywhere in the world.",
     },
 ];
 
@@ -47,25 +47,25 @@ export const feedback = [
     {
         id: "feedback-1",
         content:
-            "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-        name: "Herman Jensen",
-        title: "Founder & Leader",
+            "Hoobank has made investing and payment management much easier. I never thought this could be so simple.",
+        name: "Louise Wang",
+        title: "CEO at Stori",
         img: people01,
     },
     {
         id: "feedback-2",
         content:
-            "Money makes your life easier. If you're lucky to have it, you're lucky.",
+            "It makes you feel as though you were missing convenience your whole life. It's truly a remarkable experience.",
         name: "Steve Mark",
-        title: "Founder & Leader",
+        title: "CFO at Showtime",
         img: people02,
     },
     {
         id: "feedback-3",
         content:
-            "It is usually people in the money business, finance, and international trade that are really rich.",
-        name: "Kenn Gallagher",
-        title: "Founder & Leader",
+            "Customer service gives you the impression of being the only person being dealt with. Very personable and effective.",
+        name: "Adam Carlton",
+        title: "CEO at Pink Panda",
         img: people03,
     },
 ];
@@ -73,18 +73,18 @@ export const feedback = [
 export const stats = [
     {
         id: "stats-1",
-        title: "User Active",
-        value: "3800+",
+        title: "Users worldwide",
+        value: "5M+",
     },
     {
         id: "stats-2",
-        title: "Trusted by Company",
-        value: "230+",
+        title: "Cryptocurrencies",
+        value: "40+",
     },
     {
         id: "stats-3",
-        title: "Transaction",
-        value: "$230M+",
+        title: "Processed in 4+ years",
+        value: "$80B+",
     },
 ];
 
@@ -180,18 +180,18 @@ export const socialMedia = [
 export const clients = [
     {
         id: "client-1",
-        logo: airbnb,
+        logo: airbnb
     },
     {
         id: "client-2",
-        logo: binance,
+        logo: binance
     },
     {
         id: "client-3",
-        logo: coinbase,
+        logo: coinbase
     },
     {
         id: "client-4",
-        logo: dropbox,
+        logo: dropbox
     },
 ];

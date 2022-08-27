@@ -138,3 +138,19 @@ body {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+
+#company:hover {
+  filter: brightness(0) invert(1);
+}
+
+hr {
+  color: gray;
+  background-color: gray;
+  border: 0.1px solid gray;
+  border-radius: 1em;
+  width: 100%;
+}
+
+#greyed-logo {
+  filter: brightness(0.8);
+}

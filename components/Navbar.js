@@ -25,7 +25,7 @@ function Navbar() {
                         <Image src={openMenu ? close : menu} alt='menu' width='28' height='28' onClick={() => setOpenMenu((toggled) => !toggled)} />
                     </div>
 
-                    <div className={`${openMenu ? 'flex' : 'hidden'} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
+                    <div className={`${openMenu ? 'flex' : 'hidden'} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar z-[1]`}>
                         <ul className='list-none flex flex-col justify-end items-center flex-1'>
                             {navLinks.map((navlink, index) => (
                                 <li key={navlink.id} className={`font-poppins font-normal hover:text-secondary cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mb-0' : 'mb-4'}`}>
