@@ -5,7 +5,9 @@ const nextConfig = {
   images: {
     loader: 'akamai',
     path: '/'
-  }
+  },
+  basePath: 'bank_modern_app',
+  assetPrefix: 'bank_modern_app'
 }
 
 module.exports = nextConfig
